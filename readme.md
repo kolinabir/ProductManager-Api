@@ -1,6 +1,4 @@
 
-
-```markdown
 # ProductManager API
 
 ProductManager API is a simple API built with ASP.NET Core that allows you to manage a list of products. It supports basic CRUD (Create, Read, Update, Delete) operations.
