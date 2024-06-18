@@ -23,3 +23,4 @@ D:\WEBDEV\Asp Dot Net\ProductManager Api\obj\Debug\net8.0\refint\ProductManager 
 D:\WEBDEV\Asp Dot Net\ProductManager Api\obj\Debug\net8.0\ProductManager Api.pdb
 D:\WEBDEV\Asp Dot Net\ProductManager Api\obj\Debug\net8.0\ProductManager Api.genruntimeconfig.cache
 D:\WEBDEV\Asp Dot Net\ProductManager Api\obj\Debug\net8.0\ref\ProductManager Api.dll
+D:\WEBDEV\Asp Dot Net\ProductManager Api\obj\Debug\net8.0\ProductManager Api.sourcelink.json

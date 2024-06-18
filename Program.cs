@@ -39,4 +39,50 @@ app.MapPost("/", (CreateNewProduct product) =>
     return Results.Created($"/{products.Count}", products1);
 });
 
+
+app.MapPatch("/{id}", (int id, Products product) =>
+{
+    int index = products.FindIndex((product) => product.id == id);
+    if (index == -1)
+    {
+
+        return Results.NotFound(
+            $"Product with id {id} not found"
+        );
+    }
+    products[index] = new(
+       id,
+        product.Name, product.Description, product.Price, product.Quantity, product.Brand, product.Category, product.ImageUrl
+    );
+
+    return Results.Ok(new
+    {
+        message = "Updated Successfully",
+        id,
+        product
+    });
+});
+
+
+app.MapDelete("/{id}", (int id) =>
+{
+    int index = products.FindIndex((product) => product.id == id);
+    if (index == -1)
+    {
+
+        return Results.NotFound(
+            $"Product with id {id} not found"
+        );
+    }
+    products.RemoveAt(index);
+
+    return Results.Ok(new
+    {
+        message = "Deleted Successfully",
+        id
+    });
+});
+
+
+
 app.Run();
