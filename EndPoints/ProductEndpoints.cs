@@ -41,7 +41,7 @@ public static class ProductEndpoints
         }).WithParameterValidation();
 
 
-        group.MapPatch("/{id}", (int id, Products product) =>
+        group.MapPatch("/{id}", (int id, CreateNewProduct product) =>
         {
             int index = products.FindIndex((product) => product.id == id);
             if (index == -1)
@@ -62,7 +62,7 @@ public static class ProductEndpoints
                 id,
                 product
             });
-        });
+        }).WithParameterValidation();
 
 
         group.MapDelete("/{id}", (int id) =>
