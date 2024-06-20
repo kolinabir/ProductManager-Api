@@ -13,7 +13,7 @@ public static class ProductEndpoints
             , new(2, "Keyboard", "Mechanical keyboard", 150, 5, "Logitech", "Electronics", ["https://example.com/keyboard.jpg"])
             , new(3, "Mouse", "Gaming mouse", 80, 15, "Razer", "Electronics", ["https://example.com/mouse.jpg"])
         ];
-        
+
         group.MapGet("/", () => Results.Ok(products));
         group.MapGet("/{id}", (int id) =>
         {
@@ -38,7 +38,7 @@ public static class ProductEndpoints
             products.Add(products1);
 
             return Results.Created($"/{products.Count}", products1);
-        });
+        }).WithParameterValidation();
 
 
         group.MapPatch("/{id}", (int id, Products product) =>

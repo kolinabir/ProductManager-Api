@@ -24,3 +24,9 @@ D:\WEBDEV\Asp Dot Net\ProductManager Api\obj\Debug\net8.0\ProductManager Api.pdb
 D:\WEBDEV\Asp Dot Net\ProductManager Api\obj\Debug\net8.0\ProductManager Api.genruntimeconfig.cache
 D:\WEBDEV\Asp Dot Net\ProductManager Api\obj\Debug\net8.0\ref\ProductManager Api.dll
 D:\WEBDEV\Asp Dot Net\ProductManager Api\obj\Debug\net8.0\ProductManager Api.sourcelink.json
+D:\WEBDEV\Asp Dot Net\ProductManager Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\WEBDEV\Asp Dot Net\ProductManager Api\bin\Debug\net8.0\MinimalApis.Extensions.dll
+D:\WEBDEV\Asp Dot Net\ProductManager Api\bin\Debug\net8.0\MiniValidation.dll
+D:\WEBDEV\Asp Dot Net\ProductManager Api\obj\Debug\net8.0\ProductManager Api.csproj.AssemblyReference.cache
+D:\WEBDEV\Asp Dot Net\ProductManager Api\obj\Debug\net8.0\ProductManager Api.MvcApplicationPartsAssemblyInfo.cs
+D:\WEBDEV\Asp Dot Net\ProductManager Api\obj\Debug\net8.0\ProductM.3F8F777D.Up2Date
